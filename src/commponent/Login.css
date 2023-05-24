@@ -1,0 +1,16 @@
+.login_box{
+  width: 100vw;
+  height: 100vh;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.login_inner{
+   /* border: 3px solid purple; */
+   width: 500px;
+   height: auto;
+}
+.login_box h1{
+   text-align: center;
+}

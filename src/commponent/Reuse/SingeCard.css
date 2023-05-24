@@ -1,0 +1,207 @@
+.singleCard_main_box{
+
+ height: auto;
+ width: 100vw;
+ position: relative;
+ top:0;
+ left: 0;
+
+}
+.singleCard_head{
+ border: 2px solid black;
+ width: 100%;
+ height: auto;
+ margin-top: 0;
+ background-color: black;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ margin-top: 20px;
+}
+.singlCard_header_text{
+   
+   width: 80%;
+   height: auto;
+   color: white;
+   margin: 35px 0;
+}
+.link_singleCard{
+   margin: 10px;
+   font-size: 1.6rem;
+   font-weight: bold;
+}
+.link_singleCard a{
+  text-decoration: none;
+  color: rgb(113, 61, 162);
+}
+.link_singleCard a:hover{
+    color:  rgb(132, 98, 164) ;
+}
+.head_text h1{
+   font-weight: bolder;
+}
+.about_singelCard p{
+  font-size: 1.3rem;
+}
+.about_singelCard p a{
+   color: rgb(113, 61, 162);
+   text-decoration: underline;
+}
+.about_singelCard p a:hover{
+    color:  rgb(133, 98, 166) ;
+}
+.about_singelCard span:last-of-type{
+  margin: 0  15px;
+}
+.last_text{
+   margin: 10px 0;
+}
+
+
+
+.singleCard_box_card{
+  border: 1px solid gray;
+  height: auto;
+  width: 70%;
+  margin: 17px auto;
+  display: flex;
+ 
+}
+.singelCard_img{
+
+  width: 60%;
+  height: auto;
+}
+.singelCard_img img{
+  width: 100%;
+  height: 100%;
+}
+.singleCard_about{
+  
+   width: 100%;
+   height: auto;
+   text-align: center;
+   padding: 6px;
+}
+.singleCard_about h3{
+    font-weight: bolder;
+}
+.singleCard_about button{
+   width: 60%;
+   height: 40px;
+   background-color: rgb(14, 128, 59);
+   border: none;
+   font-weight: bolder;
+   color: white;
+   margin: 20px 0;
+}
+.singleCard_about button:hover{
+   background-color: rgb(35, 160, 39);
+}
+
+
+
+.corse_info{
+ 
+  height: auto;
+  width: 50%;
+  margin: 5px auto;
+  padding: 15px;
+}
+.corse_info h2{
+  font-weight: bolder;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.left_right{
+   display: flex;
+   justify-content: space-between;
+}
+
+.dropdown_box{
+  
+    width: 70%;
+    height: auto;
+    margin: 20px auto;
+}
+.dropdown_box_text h3{
+   margin-top: 0;
+   font-weight: bolder;
+}
+.explain{
+   margin-top: 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.explain p{
+   margin: 0;
+}
+.explain p a{
+ color: rgb(113, 61, 162);
+ text-decoration: none;
+ font-size: 1rem;
+ font-weight: bold;
+}
+
+.acumileter{
+ border: 2px solid red;
+ padding: 0 10px;
+}
+.acumileter .accuiliter_box{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     border: 2px solid blue;
+}
+
+
+
+.dropdown{
+    width: 100%;
+    height: auto;
+   
+    border: 1px solid gray;
+    margin: 2px;
+    padding: 0 20px;
+}
+.dropdown_bxo_head{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+     align-items: center;
+    
+    
+     cursor: pointer;
+   }
+.dropdown_bxo_head div h4{
+      font-weight: bolder;
+}   
+
+
+
+
+
+@media (max-width:600px) {
+   .singleCard_box_card{
+     display: block;
+     width: 86%;
+     padding: 5px;
+   }
+   .singelCard_img{
+     width: 100%;
+     height: 260px;
+   }
+   .singleCard_about{
+    height: auto;
+   }
+   
+   .corse_info{
+     width: 100%;
+   }
+   
+   .dropdown_box{
+      width: 90%;
+   }
+}

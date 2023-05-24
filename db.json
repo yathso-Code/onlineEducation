@@ -1,0 +1,35 @@
+{
+  "user": [
+    {
+      "id": "ben10@gmail.com",
+      "name": "ben",
+      "password": "ben"
+    },
+    {
+      "id": "yatharth004@gmail.com",
+      "name": "yesh",
+      "password": "yesh"
+    },
+    {
+      "id": "q11@gmail.com",
+      "name": "efwer",
+      "password": "saef"
+    },
+    {
+      "id": "bbb10@gmail.com",
+      "name": "bbba",
+      "password": "bbb"
+    },
+    {
+      "id": "benw10@gmail.com",
+      "name": "ben",
+      "password": "ben"
+    },
+    {
+      "id": "yath004@gmail.com",
+      "name": "yatharth",
+      "password": "yath"
+    }
+  ],
+  "buy": []
+}

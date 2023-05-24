@@ -1,0 +1,41 @@
+.form{
+
+ width: 100vw;
+ height: auto;
+ margin-top: 0;
+}
+.form .box{
+ 
+ width: 380px;
+ height: auto;
+ margin: auto;
+}
+.form .box input{
+  margin: 20px 0;
+  width: 100%;
+  padding: 5px 5px;
+  align-items: center;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  
+}
+.form .box .mess{
+   border: none;
+   width: 380px;
+   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+   padding: 5px;
+   margin: 20px 0;
+}
+.form .box .btn{
+ background-color: rgb(248, 246, 246);
+ border: 1px solid rgb(172, 171, 171);
+ padding: 5px 15px;
+ color: white;
+ margin-top: 33px;
+ color: black;
+ border-radius: 5px ;
+}
+.form .box .btn:hover{
+   background-color: rgb(76, 70, 185) ;
+   color: white;
+}

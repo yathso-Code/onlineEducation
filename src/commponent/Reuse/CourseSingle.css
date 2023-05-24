@@ -1,0 +1,73 @@
+.couser_box{
+  width: 100vw;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.course_box_in{
+   margin-top: 40px;
+   padding: 10px 15px;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    width: 80%;
+    height: 100%;
+  
+}
+.button_box{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.button_box button{
+    background-color: rgb(76, 70, 185);
+    border: none;
+    padding: 4px 17px;
+    font-size: 1.9rem;
+    color: aliceblue;
+    font-weight: bolder;
+    border-radius: 4px;
+}
+.button_box button:hover{
+   background-color:  rgb(89, 81, 236);
+  
+}
+.about_text{
+   margin-top: 20px;
+}
+.about_text p{
+   font-size: 1.7em;
+}
+.full_detal p{
+   font-size: 2rem;
+}
+.example_box {
+    width: 100%;
+    height: 300px;
+   
+    margin-top: 10px;
+   }
+.example_box img{
+    width: 100%;
+    height: 100%;
+}   
+.Example_explain p{
+    font-size: 1.9rem;
+}
+.var_datatype_box p{
+   font-size: 1.9rem;
+}
+.operator_box p{
+   font-size: 1.9rem;
+}
+.why_we_use{
+   margin-bottom: 30px;
+}
+.why_we_use p{
+   font-size: 1.9rem;
+}
+@media (max-width:700px){
+ .course_box_in{
+     width: 100%;
+ }
+}

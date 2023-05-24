@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;600;700&display=swap');
+
+.about_box{
+   padding-top: 50px ;
+   width: 100vw;
+}
+.row{
+  margin-top: 500px;
+  height:100%;
+  margin:auto;
+}
+.left-heading{
+  font-weight:700;
+  color:#273342;
+  font-size: 3.75rem;
+  line-height: 1;
+}
+.left-paragraph{
+  color:gray;
+  padding-left:10px;
+  margin-top:20px;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.left-column{
+  background-color:#fff;
+  float: left;
+  width: 50%;
+  padding: 25px;
+  align-items:center;
+  vertical-align:center;
+  height: 100%; 
+  padding-top: 15%;
+}
+
+.right-column {
+
+  float: left;
+  
+  width: 50%;
+  padding: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  align-items:center;
+  vertical-align:center;
+  height: 500px;
+}
+.right-column img{
+  width: 100%;
+  height: 100%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.btn {
+  width:200px;
+  padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  font-size: 19px;
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-block;
+  margin-top:20px;
+  margin-left:10px;
+  border-radius: 0.375rem;
+  border:none;
+}
+.success {
+  background-color: rgb(79 70 229);
+  color: white; 
+  box-shadow: 2px 4px 6px 8px rgb(79 70 229/0.10);
+  margin-right:20px;
+}
+
+.info {background-color: #fff;color: rgb(79 70 229);box-shadow: 2px 4px 6px 8px #dddddd40;}
+
+
+@media screen and (max-width: 600px) {
+  .left-column{
+    width: 100%;
+    height:auto;
+  }
+  .right-column {
+    width:97%;
+    margin:0 20px 0 10px;
+    border-radius:20px;
+  }
+  .success {
+  background-color: rgb(79 70 229);
+  color: white; 
+  box-shadow: 2px 4px 6px 8px rgb(79 70 229/0.10);
+  margin-right:2px;
+}
+  .btn {
+  width:150px;
+  padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+}

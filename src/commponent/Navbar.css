@@ -1,0 +1,122 @@
+
+ .nav {
+  height: 40px;
+  width: 100vw;
+  position: fixed;
+  
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: rgb(76, 70, 185);
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  line-height: 20px;
+  font-size: 22px;
+  color: #fff;
+  padding: 6px 10px 10px 10px;
+  margin-left: 20px;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 15px;
+  line-height: 14px;
+  margin-right: 10px;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #efefef;
+}
+.nav a.active{
+  
+  background-color: rgba(9, 9, 9, 0.3);
+}
+
+.nav > .nav-links > a:hover {
+  border-bottom: 3px solid rgb(81, 81, 81);
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width:700px) {
+  .nav{
+    position: fixed;
+  
+  top: 0;
+  left: 0;
+  }
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > .lab {
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > .lab:hover,.nav  #nav-check:checked ~ .nav-btn > .lab {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > .lab > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #262626;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 40px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: 0px;
+  }
+  
+  .nav > .nav-links a:checked ~ .nav >.nav-links {
+    height: 0px;
+    background-color: yellowgreen;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(50vh - 50px);
+    overflow-y: auto;
+    
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    
+    height: auto;
+    
+  }
+} 
+
+

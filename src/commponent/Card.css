@@ -1,0 +1,128 @@
+.addtocard_box{
+  
+    width: 100vw;
+    height: 100%;
+    /* border: 10px solid red; */
+}
+article {
+ width:90%;
+ margin: auto;
+ 
+ margin-bottom: 10px;
+}
+
+@media (max-width:700px) {
+  article{
+     width: 100%;
+  }
+}
+.cart_box img {
+ width: 60px;
+ height: 60px;
+}
+.cart_img {
+ display: flex;
+ width: 400px;
+}
+
+.cart_img p {
+ font-weight: bold;
+ margin-left: 10px;
+ 
+}
+
+.cart_box {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin-top: 20px;
+ border-bottom: 2px solid skyblue;
+ padding-bottom: 5px;
+}
+
+.cart_box div:nth-child(2) button {
+ padding: 5px 10px;
+ font-weight: bold;
+ margin-right: 5px;
+}
+
+.cart_box div:nth-child(3) button {
+ padding: 5px 10px;
+ font-weight: bold;
+ letter-spacing: 2px;
+ border: none;
+ outline: none;
+ color: white;
+ background-color: rgb(79 70 229);
+ border-radius: 5px;
+ cursor: pointer;
+ 
+}
+.cart_box div:nth-child(3) button:hover {
+ background-color: rgb(129, 124, 233);
+}
+.cart_box div:nth-child(3) span {
+ background-color: rgb(24, 174, 24);
+ padding: 5px 10px;
+ border-radius: 5px;
+ margin-right: 10px;
+}
+
+.total {
+ display: flex;
+ justify-content: space-between;
+}
+
+.total span:nth-child(1) {
+ font-size: 2rem;
+ color: skyblue;
+ font-weight: bold;
+ letter-spacing: 2px;
+}
+
+.total span:last-of-type {
+ font-size: 2rem;
+ color: green;
+ font-weight: bold;
+}
+.total button{
+  background-color: rgb(14, 128, 59);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 30px;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.total button:hover{
+  background-color: rgb(35, 160, 39);
+}
+
+
+
+.addtocard_img_box{
+  
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.addtocard_img_box .addtocard_img{
+   width: 100%;
+   height: 100%;
+}
+.addtocard_img_box .addtocard_img img{
+    width: 100%;
+    height: 100%;
+}
+.addtocard_img_box .addtocard_img .addtocard_tet{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.addtocard_img_box .addtocard_img .addtocard_tet h1{
+    color: rgb(144, 13, 13);
+    font-size: 5rem;
+}
